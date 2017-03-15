@@ -1410,3 +1410,12 @@ const char *__doc_igl_writeOBJ = R"igl_Qu8mg5v7(// Write a mesh in an ascii obj 
   //
   // Known issues: Horrifyingly, this does not have the same order of
   // parameters as readOBJ.)igl_Qu8mg5v7";
+const char *__doc_igl_random_points_on_mesh = R"igl_Qu8mg5v7(// Randomly sample a mesh (V,F) n times.
+  // Inputs:
+  //   n  number of samples
+  //   V  #V by dim list of mesh vertex positions
+  //   F  #F by 3 list of mesh triangle indices
+  // Outputs:
+  //   B  n by 3 list of barycentric coordinates, ith row are coordinates of
+  //     ith sampled point in face FI(i)
+  //   FI  n list of indices into F.)igl_Qu8mg5v7";

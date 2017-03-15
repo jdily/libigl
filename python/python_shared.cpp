@@ -151,7 +151,7 @@ PYBIND11_PLUGIN(pyigl) {
            winding_number
            writeMESH
            writeOBJ
-
+           random_points_on_mesh
     )pyigldoc");
 
     python_export_vector(m);
