@@ -1419,3 +1419,12 @@ const char *__doc_igl_random_points_on_mesh = R"igl_Qu8mg5v7(// Randomly sample 
   //   B  n by 3 list of barycentric coordinates, ith row are coordinates of
   //     ith sampled point in face FI(i)
   //   FI  n list of indices into F.)igl_Qu8mg5v7";
+const char *__doc_igl_is_boundary_edge = R"igl_Qu8mg5v7(Determine for each edge E if it is a "boundary edge" in F.
+  //  Boundary edges are undirected edges which occur only once.
+  // 
+  //  Inputs:
+  //    E  #E by 2 list of edges
+  //    F  #F by 3 list of triangles
+  //  Outputs:
+  //    B  #E list bools. true iff unoriented edge occurs exactly once in F
+  //      (non-manifold and non-existant edges will be false))igl_Qu8mg5v7";

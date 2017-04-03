@@ -152,6 +152,7 @@ PYBIND11_PLUGIN(pyigl) {
            writeMESH
            writeOBJ
            random_points_on_mesh
+           is_boundary_edge
     )pyigldoc");
 
     python_export_vector(m);

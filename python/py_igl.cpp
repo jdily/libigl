@@ -93,6 +93,7 @@
 #include <igl/writeMESH.h>
 #include <igl/writeOBJ.h>
 #include <igl/random_points_on_mesh.h>
+#include <igl/is_boundary_edge.h>
 
 void python_export_igl(py::module &m)
 {
@@ -188,4 +189,5 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_writeMESH.cpp"
 #include "py_igl/py_writeOBJ.cpp"
 #include "py_igl/py_random_points_on_mesh.cpp"
+#include "py_igl/py_is_boundary_edge.cpp"
 }
