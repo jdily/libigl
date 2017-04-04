@@ -118,3 +118,4 @@ extern const char *__doc_igl_writeMESH;
 extern const char *__doc_igl_writeOBJ;
 extern const char *__doc_igl_random_points_on_mesh;
 extern const char *__doc_igl_is_boundary_edge;
+extern const char *__doc_igl_exterior_edges;

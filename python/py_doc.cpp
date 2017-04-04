@@ -1428,3 +1428,12 @@ const char *__doc_igl_is_boundary_edge = R"igl_Qu8mg5v7(Determine for each edge 
   //  Outputs:
   //    B  #E list bools. true iff unoriented edge occurs exactly once in F
   //      (non-manifold and non-existant edges will be false))igl_Qu8mg5v7";
+const char *__doc_igl_exterior_edges = R"igl_Qu8mg5v7(  // EXTERIOR_EDGES Determines boundary "edges" and also edges with an
+  // odd number of occurances where seeing edge (i,j) counts as +1 and seeing
+  // the opposite edge (j,i) counts as -1
+  //
+  // Inputs:
+  //   F  #F by simplex_size list of "faces"
+  // Outputs:
+  //   E  #E by simplex_size-1  list of exterior edges
+  //)igl_Qu8mg5v7";
