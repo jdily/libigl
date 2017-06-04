@@ -1437,3 +1437,13 @@ const char *__doc_igl_exterior_edges = R"igl_Qu8mg5v7(  // EXTERIOR_EDGES Determ
   // Outputs:
   //   E  #E by simplex_size-1  list of exterior edges
   //)igl_Qu8mg5v7";
+const char *__doc_igl_edges = R"igl_Qu8mg5v7(  // Constructs a list of unique edges represented in a given mesh (V,F)
+  // Templates:
+  //   T  should be a eigen sparse matrix primitive type like int or double
+  // Inputs:
+  //   F  #F by 3 list of mesh faces (must be triangles)
+  //   or
+  //   T  #T x 4  matrix of indices of tet corners
+  // Outputs:
+  //   E #E by 2 list of edges in no particular order
+  // )igl_Qu8mg5v7";
