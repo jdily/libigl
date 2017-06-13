@@ -1447,3 +1447,14 @@ const char *__doc_igl_edges = R"igl_Qu8mg5v7(  // Constructs a list of unique ed
   // Outputs:
   //   E #E by 2 list of edges in no particular order
   // )igl_Qu8mg5v7";
+
+  const char *__doc_igl_vertex_triangle_adjacency = R"igl_Qu8mg5v7(  // vertex_face_adjacency constructs the vertex-face topology of a given mesh (V,F)
+  // Inputs:
+  //   //V  #V by 3 list of vertex coordinates
+  //   n  number of vertices #V (e.g. `F.maxCoeff()+1` or `V.rows()`)
+  //   F  #F by dim list of mesh faces (must be triangles)
+  // Outputs:
+  //   VF  #V list of lists of incident faces (adjacency list)
+  //   VI  #V list of lists of index of incidence within incident faces listed
+  //     in VF
+  // )igl_Qu8mg5v7";

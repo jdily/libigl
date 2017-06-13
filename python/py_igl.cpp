@@ -96,6 +96,7 @@
 #include <igl/is_boundary_edge.h>
 #include <igl/exterior_edges.h>
 #include <igl/edges.h>
+#include <igl/vertex_triangle_adjacency.h>
 
 void python_export_igl(py::module &m)
 {
@@ -194,4 +195,5 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_is_boundary_edge.cpp"
 #include "py_igl/py_exterior_edges.cpp"
 #include "py_igl/py_edges.cpp"
+#include "py_igl/py_vertex_triangle_adjacency.cpp"
 }

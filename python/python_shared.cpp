@@ -155,6 +155,7 @@ PYBIND11_PLUGIN(pyigl) {
            is_boundary_edge
            exterior_edges
            edges
+           vertex_triangle_adjacency
     )pyigldoc");
 
     python_export_vector(m);

@@ -43,7 +43,16 @@ namespace igl
     const Eigen::PlainObjectBase<DerivedF>& F,
     std::vector<std::vector<IndexType> >& VF,
     std::vector<std::vector<IndexType> >& VFi);
+  //   template <typename DerivedV, typename DerivedF, typename DerivedVF,  typename DerivedVFi>
+  // IGL_INLINE void vertex_triangle_adjacency(
+  //   const Eigen::PlainObjectBase<DerivedV>& V,
+  //   const Eigen::PlainObjectBase<DerivedF>& F,
+  //   Eigen::PlainObjectBase<DerivedVF>& VF,
+  //    Eigen::PlainObjectBase<DerivedVFi>& VFi);
 }
+
+
+
 
 #ifndef IGL_STATIC_LIBRARY
 #  include "vertex_triangle_adjacency.cpp"
